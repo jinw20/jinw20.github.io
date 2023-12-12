@@ -1,2 +1,2 @@
 # jinw20.github.io
-##[ks].(ks.html)
+##[ks].(https://jinw20.github.io/ks.html)
