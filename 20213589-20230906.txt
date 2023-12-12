@@ -1,0 +1,156 @@
+pwd ( print working directory ) 查看当前所在路径--绝对路径
+
+cd  切换目标
+
+cd .. 返回到上一个目录
+
+ls  查看当前目录下的内容
+
+ls -al 包括隐藏文件和以 . 开头的文件
+
+mkdir  创建目录
+
+touch 创建文件
+
+cat 查看文件内容（
+
+less 查看文件内容（显示部分信息）--再次输入‘回车’一行一行显示，‘空格’一页一页显示 ，‘b’一次向上走一页
+
+rm 删除文件，-rm -rf 文件夹（循环递进删除文件夹,不需要二次确认）
+
+
+clear 清屏
+
+q 退出
+
+mv  移动文件或重命名
+
+cp  复制文件    如复制  A 文件夹下的所有子文件、目录到 B 文件夹  cp -r A/* B
+
+echo "something"  >> 文件名       把内容追加到某个文件 
+echo ‘内容’ > 文件名 （输出内容到文件中，每次输入都是覆盖原来的文件）
+
+echo ‘内容’ >>文件名（输出内容到文件中，每次输入都是追加新内容）
+
+vim打开、修改、保存文件 
+    1  ls
+    2  ls 
+    3  ls /
+    4  cd /
+    5  mkdir jinw
+    6  ls /
+    7  cd /jinw
+    8  cp /C/luo/* D/Git/jinw
+    9  cp /c/luo/* .
+   10  ls
+   11  ls /
+   12  cd /jinw
+   13  cp /c/luo/* .
+   14  ls
+   15  rm yun.png
+   16  ls
+   17  ls
+   18  history 
+   19  pwd/
+   20  pwd -P
+   21  cp /C/luo/yun.png /D/Git/jinw
+   22  cd..
+   23  cd
+   24  cat /jinw
+   25  cat /jinw/xin.pug
+   26  cd /jinw
+   27  touch /202135589.txt
+   28  history >20213589.txt
+   29  history
+   30  echo 'luo' >20213589.txt
+   31  echo 'weiwei' >20213589.txt
+   32  ceho 'luo' >>20213589.txt
+   33  echo 'luo' >>20213589.txt
+   34  history
+   35  history >20213589.txt
+   36  clear
+   37  vim /20213589.txt
+   38  cat /20213589.txt
+   39  cat 20213589.txt
+   40  ls
+   41  cd..
+   42  cd
+   43  ls
+   44  cd /
+   45  II
+   46  //
+   47  ls
+   48  mv /C/Users/29869/Videos/Yuan Shen 原神 /D/Git/jinw
+   49  ls
+   50  cd /jinw
+   51  mv /C/Users/29869/Videos/Yuan Shen 原神/* .
+   52  LS
+   53  HISTORY
+   54  history
+   55  q
+   56  exit
+   57  ls /
+   58  ls
+   59  cd /
+   60  cd /jinw
+   61  ls
+   62  less 20213589.txt
+   63  cd
+   64  ls-al
+   65  cd /Git
+   66  cd/jinw
+   67  cd /jinw
+   68  li-al /
+   69  ls
+   70  history
+   71  mv /D/Git/jinw/yun.pug /D/Git/jinw/yung.pug
+   72  ls
+   73  cd ..
+   74  mv /C/Users/29869/Videos/Yuan Shen 原神 /D/Git/jinw
+   75  cd /jinw
+   76  touch fun
+   77  ls
+   78  mv /qin.png/ fun 
+   79  mv qin.png fun
+   80  mv fun qin.png
+   81  mkdir yug
+   82  ls
+   83  mv xin.png yug
+   84  ls
+   85  ls-al yug
+   86  cat yug
+   87  cd yug
+   88  ls
+   89  cat
+   90  ls
+   91  cd ..
+   92  cd ..
+   93  history
+   94  cd jinnw
+   95  cd jinw
+   96  rm yug
+   97  rm-rf yug
+   98  rm -r yug
+   99  ls
+  100  less 20213589.txt
+  101  history
+  102  history >20213589.txt
+  103  cat 20213589.txt
+  104  p
+  105  q
+  106  ls -al 20213589.txt
+  107  cd ..
+  108  tree -d
+  109  cd jinw
+  110  tree -d
+  111  EXIT
+  112  exit
+  113  ls /
+  114  cd jinw
+  115  cd /jinw
+  116  ls -al
+  117  ls
+  118  cd /yun.
+  119  history
+  120  history >20213589.txt
+对基础命令进行了实验，基本掌握基础知识
